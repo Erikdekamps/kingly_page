@@ -4,6 +4,7 @@ description: Configures a Kingly page content type.
 
 install:
   - paragraphs
+  - layout_paragraphs
 
 config:
   strict: false
