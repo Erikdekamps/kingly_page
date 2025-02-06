@@ -1,20 +1,30 @@
-uuid: d9a88f1a-711b-4055-a476-3385cbcd4701
 langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.kingly_page.field_content
     - node.type.kingly_page
   module:
+    - entity_reference_revisions
     - user
 id: node.kingly_page.default
 targetEntityType: node
 bundle: kingly_page
 mode: default
 content:
+  field_content:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 1
     region: content
 hidden:
   search_api_excerpt: true
