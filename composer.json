@@ -6,6 +6,6 @@
     "license": "GPL-2.0-or-later",
     "require": {
         "drupal/core": ">=10.4",
-        "drupal/paragraphs": "^1.18"
+        "drupal/layout_paragraphs": "^2.1"
     }
 }
