@@ -1,0 +1,9 @@
+name: 'Kingly page'
+type: 'Site'
+description: Configures a Kingly page content type.
+
+install:
+  - paragraphs
+
+config:
+  strict: false

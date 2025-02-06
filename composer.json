@@ -1,0 +1,11 @@
+{
+    "name": "erikdekamps/kingly_page",
+    "description": "A Drupal recipe that configures a Kingly page content type.",
+    "keywords": ["recipe", "Drupal base install", "best practices", "simple install"],
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "drupal/core": ">=10.4",
+        "drupal/paragraphs": "^1.18"
+    }
+}

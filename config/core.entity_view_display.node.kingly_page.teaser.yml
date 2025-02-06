@@ -1,0 +1,21 @@
+uuid: dcc43ffe-b3fc-4a9e-917c-1e50e04b42a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.kingly_page
+  module:
+    - user
+id: node.kingly_page.teaser
+targetEntityType: node
+bundle: kingly_page
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  search_api_excerpt: true

@@ -1,0 +1,21 @@
+uuid: 01c59cca-d81f-4f62-b5ff-ff2a22639549
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+    - search_api_exclude
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+  search_api_exclude:
+    enabled: false
+name: Page
+type: kingly_page
+description: 'A basic drupal page.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true
