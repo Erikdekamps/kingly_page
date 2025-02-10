@@ -33,6 +33,3 @@ default:
     -
       alias: /home
       langcode: en
-  field_intro_text:
-    -
-      value: 'This is the home page of your new site. Start by editing this page, or creating new pages.'
