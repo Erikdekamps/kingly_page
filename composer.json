@@ -7,8 +7,6 @@
     "require": {
         "drupal/core": ">=10.4",
         "drupal/layout_paragraphs": "^2.1",
-        "erikdekamps/kingly_paragraph_text": "dev-main",
-        "erikdekamps/kingly_paragraph_media": "dev-main",
-        "erikdekamps/kingly_paragraph_card": "dev-main"
+        "erikdekamps/kingly_paragraph_text": "dev-main"
     }
 }
