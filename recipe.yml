@@ -5,6 +5,12 @@ recipes:
   - core/recipes/basic_html_format_editor
 
 install:
+  - entity_reference_revisions
+  - path
+  - user
+  - node
+  - menu_ui
+  - search_api_exclude
   - paragraphs
   - layout_paragraphs
 
