@@ -2,7 +2,7 @@ name: 'Kingly page'
 type: 'Site'
 description: Configures a Kingly page content type.
 recipes:
-#  - core/recipes/basic_html_format_editor
+  - core/recipes/basic_html_format_editor
   - kingly_paragraph_text
 
 install:
