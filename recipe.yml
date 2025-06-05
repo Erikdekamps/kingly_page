@@ -3,6 +3,7 @@ type: 'Site'
 description: Configures a Kingly page content type.
 recipes:
   - core/recipes/basic_html_format_editor
+  - kingly_paragraph_text
 
 install:
   - entity_reference_revisions
@@ -16,3 +17,8 @@ install:
 
 config:
   strict: false
+  actions:
+    system.site:
+      simpleConfigUpdate:
+        page.front: '/home'
+
