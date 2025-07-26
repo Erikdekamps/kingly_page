@@ -27,14 +27,14 @@ content:
     third_party_settings: {  }
   field_content:
     type: layout_paragraphs
-    weight: 121
+    weight: 122
     region: content
     settings:
       view_mode: default
       preview_view_mode: default
       form_display_mode: default
       nesting_depth: 0
-      require_layouts: 0
+      require_layouts: 1
       empty_message: ''
     third_party_settings: {  }
   path:

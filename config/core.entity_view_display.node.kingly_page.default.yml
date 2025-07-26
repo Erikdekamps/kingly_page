@@ -6,7 +6,6 @@ dependencies:
     - node.type.kingly_page
   module:
     - field_layout
-    - layout_discovery
     - layout_paragraphs
     - user
 third_party_settings:
