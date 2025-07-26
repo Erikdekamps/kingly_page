@@ -1,8 +1,8 @@
 name: 'Kingly page'
 type: 'Site'
 description: Configures a Kingly page content type.
-recipes:
-  - core/recipes/basic_html_format_editor
+#recipes:
+#  - core/recipes/basic_html_format_editor
 
 install:
   - entity_reference_revisions
