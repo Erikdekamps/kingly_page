@@ -2,18 +2,6 @@ name: 'Kingly page'
 type: 'Site'
 description: Configures a Kingly page content type.
 recipes:
-  - kingly_paragraph_text
-  - kingly_paragraph_button
-  - kingly_paragraph_media
-  - kingly_paragraph_card
-  - kingly_paragraph_gallery
-  - kingly_paragraph_hero
-  - kingly_paragraph_quote
-  - kingly_paragraph_accordion
-  - kingly_paragraph_section
-  - kingly_paragraph_slideshow
-  - kingly_paragraph_testimonial
-  - kingly_paragraph_timeline
   - drupal_cms_seo_tools
 
 install:
